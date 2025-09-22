@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productos - TechNova</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>TechNova</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <button id="cartBtn">Carrito <span id="cartCount">0</span></button>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Nuestros Productos</h2>
+  <div id="productList" class="grid"></div>
+</main>
+
+<!-- Modal Carrito -->
+<div id="cartModal" class="modal hidden">
+  <div class="modal-content">
+    <span id="closeCart" class="close">&times;</span>
+    <h3>Tu Carrito</h3>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-total">Total: $<span id="cartTotal">0</span> MXN</div>
+    <button class="btn green">Finalizar Compra</button>
+  </div>
+</div>
+
+<footer>
+  © 2025 TechNova
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
