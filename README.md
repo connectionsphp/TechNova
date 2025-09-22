@@ -22,7 +22,7 @@ TechNova es tu tienda online de tecnología, gadgets y accesorios de última gen
 ### Contacto y soporte
 ![Contacto](images/contacto.png)
 
-> **Nota:** Sustituye las imágenes por capturas reales de tu página en la carpeta `images/`.
+ `images/`.
 
 ---
 
